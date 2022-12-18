@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/result.dart';
-import './question.dart';
-import 'answer.dart';
-import './quiz.dart';
 import './quiz.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MyApp()); // To run app in module..📲
 
 class MyApp extends StatefulWidget {
   @override
