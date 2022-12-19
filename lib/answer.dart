@@ -11,8 +11,8 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-              primary: Color.fromARGB(255, 84, 178, 254),
-              onPrimary: Colors.white),
+              foregroundColor: Colors.white,
+              backgroundColor: Color.fromARGB(255, 84, 178, 254)),
           child: Text(answerText),
           onPressed: selectHandler),
     );

@@ -70,7 +70,9 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // Material package to access many things.🧰
       home: Scaffold(
+        // it is to build basic design in flutter 🪡
         appBar: AppBar(
           title: Text('Vishesh📍'),
         ),
