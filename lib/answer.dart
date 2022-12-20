@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
-  final VoidCallback selectHandler;
-  final String answerText; // it takes no input and dose't give any output
+  final VoidCallback
+      selectHandler; // it takes no input and dose't give any output
+  final String answerText;
   Answer(this.selectHandler, this.answerText);
 
   @override
